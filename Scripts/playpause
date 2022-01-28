@@ -1,0 +1,5 @@
+#!/usr/bin/env osascript
+
+tell application "Music"
+    playpause
+end tell

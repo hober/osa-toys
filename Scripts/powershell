@@ -1,0 +1,8 @@
+#!/usr/bin/env osascript -l JavaScript
+// -*- javascript -*-
+
+const MenuClicker = Library("MenuClicker");
+
+function run(argv) {
+    MenuClicker.clickMenuItem('Terminal', 'Shell > New Window > PowerShell');
+}
